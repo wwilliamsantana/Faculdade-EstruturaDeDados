@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	setlocale(LC_ALL, "Portuguese");
 	
 	int tam;
-	int *ptr_1; //ponteiros
+	int *ptr_1; //ponteiros (vetores)
 	int *ptr_2;
 	
 	printf("Qual tamanho do vetor? ");
