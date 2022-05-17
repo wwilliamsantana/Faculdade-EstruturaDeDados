@@ -27,6 +27,7 @@
 Obs:  & => Quando se quer trabalhar com ENDEREÇOS
       *  => Quando se quer trabalhar com CONTEÚDOS
  ```
+ <hr>
  
  ### Alocação dinâmica de memória 
   
