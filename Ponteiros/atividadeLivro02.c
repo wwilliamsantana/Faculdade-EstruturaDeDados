@@ -1,4 +1,6 @@
 //Atividade livro, pag 36 - Questão 2 
+// Objetivo: Um semáforo tem 3 objetos, cada um contém um atributo cor e outro id. devido a limitações de memória e processamos, deseja que crie 
+// um ponteiro que vai percorrer a memória e imprimir os dados na tela. 
 
 #include <stdlib.h>
 #include <stdio.h>
