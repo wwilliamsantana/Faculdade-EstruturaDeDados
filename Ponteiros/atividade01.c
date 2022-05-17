@@ -1,3 +1,5 @@
+//Atividade01 - Solicitada pela faculdade
+
 int main(int argc, char *argv[]) {
 	
 	int *ptr; //criação do ponteiro
