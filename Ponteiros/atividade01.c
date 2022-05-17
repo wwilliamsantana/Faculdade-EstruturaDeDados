@@ -1,5 +1,8 @@
 //Atividade 01 - Solicitada pela faculdade
 
+#include <stdlib.h>
+#include <stdio.h>
+
 int main(int argc, char *argv[]) {
 	
 	int *ptr; //criação do ponteiro
