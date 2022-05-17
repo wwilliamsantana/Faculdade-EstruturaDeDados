@@ -1,4 +1,4 @@
-//Atividade01 - Solicitada pela faculdade
+//Atividade 01 - Solicitada pela faculdade
 
 int main(int argc, char *argv[]) {
 	
