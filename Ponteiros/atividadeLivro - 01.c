@@ -19,7 +19,5 @@ int main(int argc, char *argv[]) {
 		vetor[i] = pow(2, i);	
 		printf("Posição %d: %d \n", i, vetor[i]);
 	};
-	
-	
 	return 0;
 }
