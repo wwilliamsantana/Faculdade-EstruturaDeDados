@@ -43,7 +43,7 @@ void fila_mostrar(){
 
 void fila_entrar(){
 	if(fila.fim == tamanho){
-		printf("Fila está cheia!"); //Possuimos uma condição para verificar se a fila está cheia ( Comparando o tamanho da fila com nossa constante )
+		printf("Fila está cheia!");  //Possuimos uma condição para verificar se a fila está cheia ( Comparando o tamanho da fila com nossa constante )
 		system("pause");	    //Caso seja true essa condição vai entrar nessa condição.
 	}else{
 		printf("\nDigite o valor a ser inserido? ");
