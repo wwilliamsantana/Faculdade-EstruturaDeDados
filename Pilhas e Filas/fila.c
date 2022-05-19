@@ -25,8 +25,8 @@ int op;
 void menu(){ 
 	printf("\n");  
 	printf("\n Escolha uma opção : \n\n"); 
-	printf("1 - Empilhar um valor \n");
-	printf("2 - Desempilhar \n");
+	printf("1 - Incluir na fila \n");
+	printf("2 - Excluir da fila \n");
 	printf("0 - Sair \n");
 }
 
