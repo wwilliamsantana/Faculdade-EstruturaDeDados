@@ -1,9 +1,18 @@
 # Faculdade - Matéria Estrutura De Dados I
 
-<strong>Atividades relacionadas a faculdade!  -   Utilizando linguagem C</strong>
+<strong>Atividades relacionadas a faculdade!  -   Utilizando linguagem C</strong> <br>
+  *Um breve resumo dos tópicos..*
 <hr />
 
-## Ponteiros  ↗️
+## Sumário
+
+- [Ponteiros](#ponteiros)
+- [Alocação dinâmica de memória](#alocacao_dinamica)
+- [Pilhas e Filas](#pilhas_filas)
+
+<hr>
+
+## Ponteiros  ↗️ <a name="ponteiros"></a>
 
 <p>Ponteiros ou apontadores, são variáveis que armazenam o endereço de memória de outras variáveis.<br>Dizemos que um ponteiro “aponta” para uma varíável quando contém o endereço da mesma.<br>Os ponteiros podem apontar para qualquer tipo de variável. Portanto temos ponteiros para int, float, double, etc.</p>
 
@@ -29,20 +38,31 @@ Obs:  & => Quando se quer trabalhar com ENDEREÇOS
  ```
  <hr>
  
- ### Alocação dinâmica de memória 
+ ## Alocação dinâmica de memória <a name="alocacao_dinamica"></a>
   
 Na alocação dinâmica podemos alocar espaços durante a execução de um programa, ou seja, a alocação dinâmica é feita em tempo de execução. Isto é bem interessante do ponto de vista do programador, pois permite que o espaço em memória seja alocado apenas quando necessário. Além disso, a alocação dinâmica permite aumentar ou até diminuir a quantidade de memória alocada.
 
 Utilizamos a função <b>malloc</b> que reserva um espaço na memória do tamanho do <b>sizeof</b> que estamos trabalhando.
 
-#### Exmplos : <br>
+#### Exemplos : <br>
 
 ![Screenshot 2022-05-17 at 14-40-30 a9963a9390bacc768c18830c916608e119f6efb8fd2f5e97bfbcba1654f8a8f8a878490086adcc4e7bfe172663de0e37d085c2694398fdd2ede23b403ce8d062 pdf](https://user-images.githubusercontent.com/84254929/168878262-0260a747-b806-4217-aec6-1f13371d78fb.png)<br><hr>
 ![Screenshot 2022-05-17 at 14-40-35 a9963a9390bacc768c18830c916608e119f6efb8fd2f5e97bfbcba1654f8a8f8a878490086adcc4e7bfe172663de0e37d085c2694398fdd2ede23b403ce8d062 pdf](https://user-images.githubusercontent.com/84254929/168878246-35ffbf4c-20d4-4ba7-8b66-8b0181d85040.png)
 
 
  ```
- Obs: O Valor: 3673280 é um lixo de memória.. e ela só vai sumir quando atribuirmos conteúdo (<b>*ptr = 10</b>) ao endereço. 
+ Obs: O Valor: 3673280 é um lixo de memória.. e ela só vai sumir quando atribuirmos conteúdo ( *ptr = 10 ) ao endereço. 
  ```
  Após atribuirmos valor ao ponteiro, nota-se que o endereço vai continuar inalterado.
+ 
+ <hr>
+ 
+ ## Pilhas e Filas <a name="pilhas_filas"></a>
+ 
+Uma pilha é um tipo de estrutura de dado, que é uma maneira de se organizar e usar dados, informações.
+A regra das pilhas é famoso LIFO - Last In, First Out, ou seja, o **último a entrar é o primeiro a sair** da estrutura.
+
+A fila é uma estrutura de dados que armazena os dados na ordem FIFO (First In First Out), em português **Primeiro a Entrar Primeiro a Sair**. A recuperação de dados será feita na ordem de inserção
+ 
+ <hr>
 
