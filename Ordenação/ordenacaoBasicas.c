@@ -1,4 +1,3 @@
-#include <stdio.h>
 //Estudos do livro Estrutura de Dados II - pag 67 a 84
 
 #include <stdio.h>
