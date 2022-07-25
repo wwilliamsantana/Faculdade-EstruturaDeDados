@@ -1,7 +1,7 @@
 # Faculdade - Matéria Estrutura De Dados I
 
 <strong>Atividades relacionadas a faculdade!  -   Utilizando linguagem C</strong> <br>
-  *Um breve resumo dos tópicos..*
+
 <hr />
 
 ## Sumário
