@@ -9,6 +9,7 @@
 - [Ponteiros](#ponteiros)
 - [Alocação dinâmica de memória](#alocacao_dinamica)
 - [Pilhas e Filas](#pilhas_filas)
+- [Métodos de Ordenação](#ordenacao)
 
 <hr>
 
@@ -65,4 +66,40 @@ A regra das pilhas é famoso LIFO - Last In, First Out, ou seja, o **último a e
 A fila é uma estrutura de dados que armazena os dados na ordem FIFO (First In First Out), em português **Primeiro a Entrar Primeiro a Sair**. A recuperação de dados será feita na ordem de inserção
  
  <hr>
+ 
+  
+ ## Métodos de Ordenação <a name="ordenacao"></a>
+ 
+ ### Bubblesort
+ - A técnica de ordenação Bubblesort também é conhecida por ordenação por
+ flutuação ou por método da bolha. Ela é de simples implementação e de alto
+ custo computacional. Começando na primeira posição do vetor, compara-se o
+ valor dela com todos os demais elementos, trocando caso o valor da posição
+ atual seja maior do que o valor verificado. Os valores mais altos vão flutuando
+para o final do vetor, criando a ordenação da estrutura. Esse processo se repete
+para cada uma das posições da tabela.
+
+ ### Selectionsort
+ - A técnica também é de simples implementação e de alto consumo computacional.
+A partir da primeira posição, procura-se o menor valor em todo o vetor. Chegando
+no final da estrutura, trocamos o menor valor encontrado com a primeira posi-
+ção. Em seguida, ele parte para a segunda posição e passa a procurar o segundo
+menor valor do vetor até o final da tabela, fazendo a troca de posição dos valores.
+ ### Insertionsort
+ - A ordenação Insertionsort também é conhecida como ordenação por inser-
+ção. É de implementação simples e traz bons resultados. A técnica consiste em
+remover o primeiro elemento da lista, e procurar sua posição ideal no vetor e
+reinseri-lo na tabela. O processo é repetido para todos os elementos.
+A princípio o Insertionsort é muito parecido com o Bubblesort e o
+Selectionsort, já que todos os três trazem dois laços de repetição aninhados,
+porém os dois últimos percorrem sempre os dois laços por inteiro. Esse é o
+motivo do Insertionsort ser mais rápido do que os outros dois
+ ### Shellsort
+ - Ao invés de tratar o arquivo como um todo, ele divide a tabela em segmentos
+menores e em cada um deles é aplicado o Insertionsort. Ele faz isso diversas
+vezes, dividindo grupos maiores em menores até que todo o vetor esteja ordenado.Ele
+possui uma variável chamada gap. O gap determina a distância entre os elemen-
+tos que serão removidos do vetor original. Ao subvetor aplica-se o algoritmo de
+Insertionsort, e o subvetor é novamente inserido no vetor original. O processo
+se repete até atingir todos os elementos.
 
