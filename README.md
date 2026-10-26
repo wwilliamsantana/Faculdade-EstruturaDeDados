@@ -1,7 +1,6 @@
 # Faculdade - Matéria Estrutura De Dados I
 
-<strong>Atividades relacionadas a faculdade!  -   Utilizando linguagem C</strong> <br>
-  *Um breve resumo dos tópicos..*
+<strong>Repositório com atividades e exemplos desenvolvidos durante a disciplina de Estrutura de Dados I, utilizando a linguagem C.</strong> <br>
 <hr />
 
 ## Sumário
